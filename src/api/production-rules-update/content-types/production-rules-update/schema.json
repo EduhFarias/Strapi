@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "production_rules_updates",
+  "info": {
+    "singularName": "production-rules-update",
+    "pluralName": "production-rules-updates",
+    "displayName": "Production-rules-update"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "rule": {
+      "type": "json"
+    },
+    "publish_at": {
+      "type": "datetime"
+    }
+  }
+}
